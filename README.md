@@ -63,7 +63,7 @@ qr_display_label = tk.Label(root)
 qr_display_label.pack(pady=20)
 
 # Save button
-save_button = tk.Button(root, text="Save as PNG", font=("Arial", 12), state=tk.DISABLED, command=save_qr)
+save_button = tk.Button(root, text="Save as PNG", font=("Arial", 12), command=save_qr)
 save_button.pack(pady=10)
 
 # Run the application
